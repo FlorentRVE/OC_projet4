@@ -334,7 +334,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #F3976C;
+    border-radius: 20px;
 }
 
 .navbar-toggle {
@@ -654,6 +655,10 @@ a {
     color: #575757!important;
 }
 
+label {
+    font-size: 20px;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +715,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -741,6 +746,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
@@ -753,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(71, 66, 54, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -818,12 +825,32 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.358)), url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+/* ============== Rajout CSS ================= */
+
+.annuaire {
+    display: flex;
+}
+
+.txt_white {
+    color: white!important;
+}
+
+.focus:focus {
+    background: #000000;
+}
+
+button:focus {
+    background: black;
+}
+
+/* =============================================== */
 
 @media (max-width: 1024px) {
     .bloc {
