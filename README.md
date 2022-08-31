@@ -1,3 +1,4 @@
+![Cover](https://github.com/FlorentRVE/OC_projet4/blob/main/img/readme_panthere.PNG)
 
 ## Scénario :
 
