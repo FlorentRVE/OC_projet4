@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -325,7 +325,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -652,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #242424!important;
 }
 
 label {
@@ -817,19 +817,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.358)), url("img/agence-la-panthere.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.358)), url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 /* ============== Rajout CSS ================= */
@@ -848,6 +848,23 @@ h4 {
 
 button:focus {
     background: black;
+}
+
+blockquote,
+figcaption {
+    color: #000000;
+}
+
+a {
+    font-weight: 600;
+}
+
+address {
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
 }
 
 /* =============================================== */
