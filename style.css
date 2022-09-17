@@ -652,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #242424!important;
+    color: black!important;
 }
 
 label {
@@ -748,6 +748,8 @@ h4 {
     margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -865,6 +867,10 @@ address {
     font-size: 20px;
     text-align: center;
     line-height: 40px;
+}
+
+.bolder {
+    font-weight: bolder;
 }
 
 /* =============================================== */
